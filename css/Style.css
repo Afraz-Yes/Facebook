@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(223, 229, 236);
+}
+.fbn{
+    font-size: 6em;
+    font-weight: bold;
+    color: rgb(31 96 214);
+    transform: translate(19%, 204%);
+    font-family: times, "Times New Roman",
+}
+
+.fbp{
+    font-size: 2em;
+    font-family: times, "Times New Roman";
+    transform: translate(19%, 300%);
+}
+
+.fbform{
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    left: 52%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+    overflow: hidden;
+}
+
+.fbform input[type="text"] {
+    border-radius: 6px;
+    border: 1px solid rgb(204, 203, 203);
+    box-shadow: 0 0 2px gray;
+    position: relative;
+    left: 15px;
+    top: 25px;
+    width: 95%;
+    height:60px;
+    color: rgb(5, 5, 5);
+    font-size: 16px;
+}
+
+.fbform input[placeholder]{
+    font-size: 1.5em;
+    text-align: center;    
+}
+
+.fbform input[type="password"]{
+    border-radius: 6px;
+    border: 1px solid rgb(204, 203, 203);
+    box-shadow: 0 0 2px gray;
+    margin-top: 30px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    width: 95%;
+    height:60px;
+    color: rgb(5, 5, 5);
+    font-size: 16px;
+}
+
+.fbform input[placeholder]{
+    font-size: 1.5em;
+    text-align: center;    
+}
+
+.fbform input[type="text"]:hover {/*Problem focus*/
+    border-color: rgb(103, 179, 230); 
+}
+
+.fbform input[type="password"]:hover {/*Problem focus*/
+    border-color: rgb(103, 179, 230); 
+}
+
+.fbform input[type="submit"]{
+    border-radius: 6px;
+    border: 0;
+    background-color: #1877f2;
+    margin-top: 30px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    width: 95%;
+    height:60px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.fbform input[type="submit"]:hover{
+    background-color: rgb(66, 93, 248);
+    
+}
+.fbform a{
+    color: #1877f2;
+    position: relative;
+    left: 159px;
+    top: 50px;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+.lin {
+    position: relative;
+    top: 50px;
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+
+.fbform input[type="submit2"]{
+    border-radius: 6px;
+    border: 0;
+    background-color: rgb(0, 156, 0);
+    margin-top: 30px;
+    position: relative;
+    text-align-last: center;
+    left: 118px;
+    top: 15px;
+    width: 56%;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.fbform input[type="submit2"]:hover{
+    background-color: rgb(6, 121, 21);   
+}
+
+.CAP {
+    position: relative;
+    left: 1080px;
+    margin-top: 37px;
+    font-size: 18px;
+}
+@media (min-width: 1200px) {
+    
+  }
+  
+ 
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .CAP {
+        position: relative;
+        left: 900px;
+    }
+ 
+    
+   
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    
+    
+  }
+  
+  @media (max-width: 767px) {
+    
+  }
+  @media (max-width: 479px) {
+    
+    }
+  }
